@@ -1,0 +1,57 @@
+﻿#ControlBar, #ControlBar *, .actionMenu * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.Normal, .NormalDisabled, .NormalDeleted {
+    color:#000000;
+    font-size:1.6rem;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.DnnModule {
+    z-index:100;
+    position:relative;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i';
+
+body {
+    background-color: #e8e8e8;
+    line-height: 1;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+}
+
+p, li {
+    font-size: 1.6rem;
+    line-height: 2.4rem!important;
+}
+
+ol {
+
+}
+    ol li {
+        margin:20px 0;
+    }
+
+p {
+    margin:30px 0;
+}
+
+.romans, .letters {
+    padding: 20px 0 20px 50px;
+}
+    .romans li {
+        list-style:lower-roman;
+    }
+    .romans li ul li {
+        list-style-type:disc;
+    }
+
+    .letters li {
+        list-style:upper-latin;
+    }
